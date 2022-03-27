@@ -3,11 +3,11 @@ name: Hello, world!
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, world!"
+      - run: echo "Hello, world!!!"
