@@ -1,6 +1,6 @@
 name: Hello, world!
 on: push:
-    braches: [master]
+    branches: [master]
 jobs:
   build:
     name: Greeting
